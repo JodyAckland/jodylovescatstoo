@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Purrfect Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-cat"></i>
+                <span>Purrfect Care</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tarifs.html" class="nav-link">Tarifs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch to schedule your free consultation</p>
+        </div>
+    </section>
+
+    <!-- Contact Main -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Ready to give your cats the best care while you're away? We'd love to hear from you! Contact us today to schedule your free consultation and meet your dedicated cat sitter.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                                <span>Available 8 AM - 8 PM daily</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>hello@purrfectcare.com</p>
+                                <span>We respond within 24 hours</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Service Area</h4>
+                                <p>[Your City] and surrounding areas</p>
+                                <span>Within 15 miles of city center</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Emergency Contact</h4>
+                                <p>(555) 123-4567</p>
+                                <span>24/7 for existing clients</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <h3>Send Us a Message</h3>
+                    <form class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="serviceType">Service Needed</label>
+                            <select id="serviceType" name="serviceType">
+                                <option value="">Select a service</option>
+                                <option value="daily-visits">Daily Visits</option>
+                                <option value="overnight-care">Overnight Care</option>
+                                <option value="extended-care">Extended Care</option>
+                                <option value="consultation">Free Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="startDate">Start Date</label>
+                                <input type="date" id="startDate" name="startDate">
+                            </div>
+                            <div class="form-group">
+                                <label for="endDate">End Date</label>
+                                <input type="date" id="endDate" name="endDate">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="catInfo">Tell Us About Your Cats</label>
+                            <textarea id="catInfo" name="catInfo" rows="4" placeholder="Number of cats, names, ages, personalities, special needs, etc."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any special instructions, questions, or additional details about your needs..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter">
+                                <span class="checkmark"></span>
+                                I'd like to receive helpful cat care tips and updates
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="contact-process">
+        <div class="container">
+            <h2 class="section-title">What Happens Next?</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>We Respond Quickly</h4>
+                        <p>We'll get back to you within 24 hours to discuss your needs and answer any questions.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>Free Consultation</h4>
+                        <p>We'll schedule a free meet-and-greet at your home to meet you and your cats.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>Custom Care Plan</h4>
+                        <p>We'll create a personalized care plan tailored to your cats' specific needs and routines.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>Peace of Mind</h4>
+                        <p>Relax knowing your cats are in loving, professional hands with daily updates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How far in advance should I book?</h4>
+                    <p>We recommend booking at least 1-2 weeks in advance, especially during holidays and peak travel seasons. However, we do our best to accommodate last-minute requests when possible.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Do you provide services during holidays?</h4>
+                    <p>Yes! We understand that holidays are popular travel times. We provide services during all major holidays with a small holiday surcharge to ensure your cats receive the same excellent care.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>What if my cat has special medical needs?</h4>
+                    <p>We have experience caring for cats with various medical conditions including diabetes, kidney disease, and mobility issues. We can administer medications and coordinate with your veterinarian as needed.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Are you insured and bonded?</h4>
+                    <p>Yes, we are fully bonded and insured for your peace of mind and protection. We can provide proof of insurance upon request.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>What happens in case of an emergency?</h4>
+                    <p>We have 24/7 emergency contact availability for existing clients. In case of a medical emergency, we will contact you immediately and take your cat to your preferred veterinarian or emergency clinic.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Can I meet the sitter before booking?</h4>
+                    <p>Absolutely! We always provide a free initial consultation where you can meet your sitter, discuss your cats' needs, and ensure everyone is comfortable before booking any services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area -->
+    <section class="service-area">
+        <div class="container">
+            <h2 class="section-title">Service Area</h2>
+            <div class="area-content">
+                <div class="area-text">
+                    <h3>We Serve [Your City] and Surrounding Areas</h3>
+                    <p>Our professional cat sitting services are available throughout [Your City] and the surrounding communities. We typically serve areas within a 15-mile radius of the city center to ensure we can provide prompt, reliable service to all our clients.</p>
+                    
+                    <div class="coverage-areas">
+                        <h4>Areas We Serve Include:</h4>
+                        <ul>
+                            <li>Downtown [Your City]</li>
+                            <li>[Neighborhood 1]</li>
+                            <li>[Neighborhood 2]</li>
+                            <li>[Neighborhood 3]</li>
+                            <li>[Nearby Town 1]</li>
+                            <li>[Nearby Town 2]</li>
+                            <li>And surrounding areas</li>
+                        </ul>
+                    </div>
+                    
+                    <p><strong>Not sure if we serve your area?</strong> Contact us! We're always looking to expand our service area and may be able to accommodate special requests.</p>
+                </div>
+                <div class="area-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Service Area Map</p>
+                        <span>15-mile radius coverage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Don't wait - book your free consultation today and give your cats the professional care they deserve!</p>
+                <div class="cta-buttons">
+                    <a href="tel:5551234567" class="btn btn-primary btn-large">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                    <a href="mailto:hello@purrfectcare.com" class="btn btn-secondary btn-large">
+                        <i class="fas fa-envelope"></i>
+                        Send Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-cat"></i>
+                        <span>Purrfect Care</span>
+                    </div>
+                    <p>Professional cat sitting services with love and care.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@purrfectcare.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Purrfect Care. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
